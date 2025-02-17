@@ -14,6 +14,7 @@ router.get("/ipaddress", (req, res) => {
       }
     }
   }
+  
   console.log(localIP);
 
   res.status(200).json({ message: "User Get IP successfully", localIP });
